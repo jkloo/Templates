@@ -1,0 +1,55 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.py[cod]",
+                "*.so",
+                "*.egg",
+                "*.egg-info",
+                ".installed.cfg",
+                "pip-log.txt",
+                ".coverage",
+                ".tox",
+                "nosetests.xml",
+                "*.mo",
+                ".mr.developer.cfg",
+                ".project",
+                ".pydevproject",
+                "*.sublime-workspace",
+                "*.pdf"
+            ],
+            "folder_exclude_patterns":
+            [
+                "dist",
+                "build",
+                "eggs",
+                "parts",
+                "bin",
+                "var",
+                "sdist",
+                "develop-eggs",
+                "lib",
+                "lib64",
+                "__pycache__",
+                "test/files",
+                "*.egg-info",
+                "env",
+                "_lib"
+            ],
+            "path": ".",
+            "follow_symlinks": true
+        }
+    ],
+
+    "settings":
+    {
+        "default_line_ending": "unix",
+        "ensure_newline_at_eof_on_save": true,
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true,
+        "trim_trailing_white_space_on_save": true
+    }
+
+}
